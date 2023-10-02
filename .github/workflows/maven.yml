@@ -16,7 +16,7 @@ on:
 
 jobs:
   build:
-    uses: Devlevel9000/reusable_master/blob/main/.github/workflows/java_17_maven.yml@main
+    uses: Devlevel9000/reusable_master/.github/workflows/java_17_maven.yml@main
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
   upload_dep_graph:
     runs-on: ubuntu-latest
